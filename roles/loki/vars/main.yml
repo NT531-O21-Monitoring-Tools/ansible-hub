@@ -1,0 +1,5 @@
+---
+loki_version: "3.1.1"
+loki_expose_port: true
+# loki_log_level: "debug"
+# loki_s3_storage: "https://eJY8TEOP8O4q8vAdL4G0:ypXSwlS4YlivRfoq4f9rn8ciTVvi8K61YdhManYZ@bvbank-s3-api.atomsolution.vn/bvb-system"

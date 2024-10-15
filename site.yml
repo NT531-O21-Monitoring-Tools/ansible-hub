@@ -1,0 +1,12 @@
+---
+- name: Provisioning infrastructure
+  hosts: server
+  gather_facts: no
+  become: yes
+  roles:
+    - prometheus
+    - node_exporter
+    - loki
+    - promtail
+    - grafana
+    - harbor

@@ -1,0 +1,11 @@
+---
+- name: Add SSH key
+  hosts: all
+  gather_facts: no
+  roles:
+    - add_ssh_key
+  vars:
+    users:
+      - devops-dang-nt
+      - devops-nguyen-tk
+      - devops-thien-lm
