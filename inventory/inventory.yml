@@ -1,0 +1,9 @@
+all:
+  hosts:
+    web-server:
+      ansible-host: 1.1.1.1
+      ansible-user: root
+      ansible-password: password
+  
+  vars:
+    example: "This is an example variable"
