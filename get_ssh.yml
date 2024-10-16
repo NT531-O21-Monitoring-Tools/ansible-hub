@@ -1,7 +1,0 @@
----
-- name: Get SSH key
-  hosts: all
-  gather_facts: no
-  become: yes
-  roles:
-    - get_ssh_key
